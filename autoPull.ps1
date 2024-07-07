@@ -1,3 +1,4 @@
+# Скрипт запускается командой powershell -File [fileName.ps1], для простоты можно сделать alias -- alias ap='powershell -File autoPull.ps1', где ap, собсна, сам алиас
 # Скрипт нужно запускать из той ветки, в которую хотите внести изменения из develop (ветку, из которой тянутся изменения, можно поменять)
 
 param([string]$repoLocalpath)
